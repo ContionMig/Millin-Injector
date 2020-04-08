@@ -9,7 +9,7 @@ Millin Injector offers many features which can aid in creating usermode cheats. 
 ![ScreenShot2](https://github.com/ContionMig/Millin-Injector/blob/master/Millin%20Injector/ScreenShots/Screenshot_2.png)
 
 # Features
-Processes Tab
+# Processes Tab
 - Simple Table For Processes
 - Info Displayed: PID, EXE Name, Window Name, Ram Used and Full Path
 - Buttons Allows You To: Select Program For Injection, Terminate Program or Refresh List 
@@ -17,21 +17,21 @@ Processes Tab
 
 ![ScreenShot3](https://github.com/ContionMig/Millin-Injector/blob/master/Millin%20Injector/ScreenShots/Screenshot_2.png)
 
-Modules Tab
+# Modules Tab
 - Simple Table For Modules ( From Selected Process )
 - Info Displayed: DLL Name, Base Address, Base Size and Full Path
 - Buttons Allows You To: Select Module To Check Imports
 
 ![ScreenShot4](https://github.com/ContionMig/Millin-Injector/blob/master/Millin%20Injector/ScreenShots/Screenshot_3.png)
 
-Imports Tab
+# Imports Tab
 - Simple Display Of Imports Found From File
 - Info Displayed: RVA, Original First Thunk, Name Of Module, Name Of Imported Function
 ( Remember that this is being parsed through file, not through running process )
 
 ![ScreenShot5](https://github.com/ContionMig/Millin-Injector/blob/master/Millin%20Injector/ScreenShots/Screenshot_4.png)
 
-Injection Tab
+# Injection Tab
 - Offers 3 Injections Methods
  - Thread Creation
   - 3 Methods Of Creating Thread
@@ -54,7 +54,7 @@ Injection Tab
 
 ![ScreenShot6](https://github.com/ContionMig/Millin-Injector/blob/master/Millin%20Injector/ScreenShots/Screenshot_1.png)
 
-Console Tab
+# Console Tab
 - Displays the Default Console From IMGUI
 - Only One Proper Command: REFRESHPROCESS 
 ![ScreenShot7](https://github.com/ContionMig/Millin-Injector/blob/master/Millin%20Injector/ScreenShots/Screenshot_5.png)
