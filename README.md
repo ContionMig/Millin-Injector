@@ -37,7 +37,7 @@ Millin Injector offers many features which can aid in creating usermode cheats. 
   - 3 Methods Of Creating Thread
     - CreateRemoteThread
     - NtCreateThreadEx
-    -RtlCreateUserThread
+    - RtlCreateUserThread
   - Delayed Injection
   - Using Full Handle Perms ( Either Uses Needed Perms or PROCESS_ALL_ACCESS )
   - Manual Map
