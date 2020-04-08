@@ -1,0 +1,7 @@
+Rendering: https://github.com/ocornut/imgui
+ImGui Extentions: https://gist.github.com/Flix01/2c6e06b4a4f93016c334
+Unlinking Modules: https://github.com/SLAUC91/DLLHiding
+ImGui Themes: https://github.com/ocornut/imgui/issues/707
+Cleaning PEB: http://www.rohitab.com/discuss/topic/42077-module-pebldr-hiding-all-4-methods-x64/
+Antis: https://github.com/LordNoteworthy/al-khaser
+MM: github.com/ItsJustMeChris/Manual-Mapper/blob/master/Heroin/needle.h

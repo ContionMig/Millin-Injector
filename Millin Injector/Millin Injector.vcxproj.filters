@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\IMGUI">
+      <UniqueIdentifier>{5997ee4f-40bb-471d-b751-a4004d9da48c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render">
+      <UniqueIdentifier>{7ddd5eab-2533-42b2-8108-a90a9539a4c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Render">
+      <UniqueIdentifier>{b28fe321-20d9-4cc7-abdd-9349fd85688c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helpers">
+      <UniqueIdentifier>{27366102-5ef3-4644-9a8f-97ecf68f4607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IMGUI">
+      <UniqueIdentifier>{3bf67f0c-22e9-4dee-863a-27a8db388d7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{0f639164-2834-4445-95c7-5129b51e3297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{984763ec-d56e-4ac1-b330-62958c6fec4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main">
+      <UniqueIdentifier>{2069cdee-48af-40bb-b4f3-f8ed0d0ff60f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Anti">
+      <UniqueIdentifier>{8fa157aa-0c65-4fb0-96bf-3e981c324e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Anti">
+      <UniqueIdentifier>{13633523-da70-40e7-b8d1-66ef42757fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SLAUC91">
+      <UniqueIdentifier>{a4b3d8c7-07c8-494b-b4a0-bd2d535aaa87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Millin Injector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-master\imgui.cpp">
+      <Filter>Source Files\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-master\imgui_demo.cpp">
+      <Filter>Source Files\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-master\imgui_draw.cpp">
+      <Filter>Source Files\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-master\imgui_widgets.cpp">
+      <Filter>Source Files\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-master\examples\imgui_impl_dx11.cpp">
+      <Filter>Source Files\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-master\examples\imgui_impl_win32.cpp">
+      <Filter>Source Files\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorLogs.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Threads.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug.cpp">
+      <Filter>Source Files\Anti</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDump.cpp">
+      <Filter>Source Files\Anti</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiVM.cpp">
+      <Filter>Source Files\Anti</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Inject.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="SLAUC91.cpp">
+      <Filter>Header Files\SLAUC91</Filter>
+    </ClCompile>
+    <ClCompile Include="imguistyleserializer.cpp">
+      <Filter>Source Files\IMGUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-master\examples\imgui_impl_dx11.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-master\examples\imgui_impl_win32.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-master\imconfig.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-master\imgui.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-master\imgui_internal.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-master\imstb_rectpack.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-master\imstb_textedit.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-master\imstb_truetype.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorLogs.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug.h">
+      <Filter>Header Files\Anti</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDump.h">
+      <Filter>Header Files\Anti</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiVM.h">
+      <Filter>Header Files\Anti</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inject.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="SLAUC91.h">
+      <Filter>Header Files\SLAUC91</Filter>
+    </ClInclude>
+    <ClInclude Include="imguistyleserializer.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
