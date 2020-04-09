@@ -10,7 +10,7 @@ int main()
     ErrorLogs::LogFiles("Current Path: %s", Helpers::CurrentPath().c_str());
     ErrorLogs::LogFiles("Program Ran As Admin: %s", Helpers::RanAsAdmin() ? "True" : "False");
 
-    ErrorLogs::LogFiles("Starting Threads", Helpers::CurrentPath().c_str());
+    ErrorLogs::LogFiles("Starting Threads");
     Threads::hRenderThread = CreateThread(NULL, NULL, (LPTHREAD_START_ROUTINE)Threads::RenderThread, NULL, NULL, &Threads::RenderThreadID);
     ErrorLogs::LogFiles("All Threads Started");
 
